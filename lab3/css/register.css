@@ -1,0 +1,107 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6f6f6;
+}
+header {
+    width: 100%;
+    color: #000000;
+    background-color: #ffffff;
+    height: 45px;
+    padding-top: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+h2{
+    font-size: 16pt;
+    margin: auto 12%;
+}
+h2 a{
+    padding:0 1em;
+    color:#999999;
+    text-decoration: none;
+}
+h2 a:hover{
+    color:#666666;
+}
+h1{
+    font-size: 20pt;
+    margin: 15px 0 15px 12%;
+
+}
+.signup{
+    margin: 0 10% 25px 10%;
+    background-color: #ffffff;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.2);
+    padding: 15px 3%;
+}
+p{
+    font-size: 12pt;
+    color:#333333;
+    margin: 15px 0 5px 0;
+}
+span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    margin-left: 10px;
+    border:1px solid #666666;
+    background-color: antiquewhite;
+    padding: 0 3px;
+    font-size: 11pt;
+    color:#000000;
+}
+small{
+    font-size: 10pt;
+    color:#999999;
+}
+input[type=text],input[type=password],input[type=tel]{
+    font-size: 12pt;
+    padding: 4px;
+    border-radius: 3px;
+    border: 1px solid #999999;
+    width: 30%;
+    min-width: max-content;
+}
+input[type=checkbox],input[type=radio]{
+    margin: 10px 0 10px 20px;
+    min-width: max-content;
+}
+textarea{
+    margin-top: 5px;
+    font-size: 12pt;
+    width: 90%;
+    min-width: 300px;
+    min-height: 120px;
+    border-radius: 6px;
+    background-color:#f6f6f6;
+    resize: none;
+}
+input[type=submit]{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 6px 12px;
+    font-size: 14pt;
+    font-weight: 550;
+    width: 120px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom,#99CC00,#339933);
+    border: 1px solid #006633;
+    cursor: pointer;
+}
+select{
+    font-size: 10pt;
+    padding: 2px 8px;
+    border: 1px solid #999999;
+    min-width: max-content;
+}
+input[type=button]{
+    margin-top: 10px;
+    font-size: 10pt;
+    padding: 4px;
+    border-radius: 3px;
+    border: 1px solid #999999;
+    width:50px;
+    min-width:max-content;
+}

@@ -1,0 +1,178 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6f6f6;
+}
+header {
+    width: 100%;
+    color: #000000;
+    background-color: #ffffff;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+/*导航栏字体设置*/
+nav{
+    background-color: #FFFFFF;
+    font-size: 14pt;
+    margin: 7.5px 12%;
+}
+/*用户设置在右侧*/
+nav span{
+    padding-top: 10px;
+    float:right;
+}
+img{
+    vertical-align:middle;
+}
+nav a{
+    padding:0 1em;
+    color:#999999;
+    text-decoration: none;
+}
+/*鼠标悬浮时高亮*/
+nav a:hover{
+    color:#666666;
+}
+nav a:nth-child(2){
+    color:#000000;
+    font-weight: bold;
+}
+.frame{
+    padding:80px 0 20px 0;
+}
+.Main{
+    background-color: #FFFFFF;
+    margin-left: 10%;
+    padding-bottom: 15px;
+    width:60%;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.2);
+}
+.headline{
+    height:50px;
+}
+.headline a{
+    color:#000000;
+    margin-top: 20px;
+    font-size: 14pt;
+    float: left;
+    padding:0 1.5em;
+    text-decoration: none;
+}
+.headline a:hover{
+    color:#003399;
+}
+.headline a:nth-child(1){
+    color:#0099CC;
+}
+aside{
+    float: right;
+    margin-right: 10%;
+    width: 15%;
+    background-color: #ffffff;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.2);
+}
+aside ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+aside li a{
+    font-size: 12pt;
+    display: block;
+    padding: 8px 16px ;
+    text-decoration: none;
+    color:#999999;
+}
+aside li a:hover{
+    background-color: #f6f6f6;
+}
+section{
+    border-top: 1.5px solid #f6f6f6;
+    padding: 0px 15px;
+    margin-top: 5px;
+}
+h3{
+    margin-top: 10px;
+}
+h3 a{
+    text-decoration: none;
+    color:#000000;
+}
+h3 a:hover{
+    color:#336699;
+}
+/*使段落可以换行*/
+p{
+    margin-top: -5px;
+    margin-bottom: 10px;
+    padding:0 5px;
+    white-space: pre-line;
+}
+p a{
+    color: #333333;
+    text-decoration: none;
+}
+p a:hover{
+    color: #666666;
+}
+p span{
+    color:#003399;
+}
+p span:hover{
+    color:#666666;
+}
+.blockquote{
+    margin-left: 5px;
+    border-radius: 3px;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(153, 204, 256, 0.5);
+    color: royalblue;
+    font-size: 10pt;
+}
+.blockquote:hover{
+    background-color: rgba(153, 204, 256, 0.8);
+    cursor: pointer;
+}
+/*换页代码是project1里写的直接拿来用了*/
+.pagebutton{
+    text-align: center;
+}
+.pagebutton ul{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin-top: 10px;
+}
+.pagebutton li {
+    display: inline-flex;
+    text-align: center;
+}
+.pagebutton li a {
+    float: left;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    color: #333399;
+    border: 1px solid transparent;
+    margin:0px 2px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 100%;
+}
+.pagebutton li a.active {
+    background-color: #99CCFF;
+    cursor: default;
+}
+.pagebutton li a:hover {
+    background-color: #99CCFF;
+}
