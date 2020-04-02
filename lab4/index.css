@@ -1,0 +1,34 @@
+/*导航栏*/
+.navbar-header a{
+    padding-top: 10px;
+}
+nav li{
+    font-size: 12pt;
+    padding: 3px 8px;
+}
+/*页脚背景色设置*/
+footer{
+    margin-top: 10px;
+    background-color: #333333;
+}
+.row{
+    margin:30px 50px 0;
+}
+.copyright{
+    color: #ffffff;
+    text-align: center;
+}
+footer a{
+    color: #ffffff;
+}
+/*悬浮时变样式*/
+footer a:hover{
+    cursor: pointer;
+    color: #46b8da;
+    text-decoration: none;
+}
+@media only screen and (max-width: 768px)  {
+    .row {
+        margin: 30px 10px;
+    }
+}
