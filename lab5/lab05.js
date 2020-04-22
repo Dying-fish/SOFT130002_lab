@@ -44,7 +44,7 @@ function timeTest(){
         mul.value = 1;
     }
     let time = new Date().getSeconds();
-    if(mul.value<1024&&(time-55)<0){
+    if(mul.value<1024&&(time-56)<0){
         setTimeout(timeTest,5000);
     }
 };
