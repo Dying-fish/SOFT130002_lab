@@ -210,8 +210,9 @@ PoorCountry.prototype = new Country();
 PoorCountry.prototype.saySad = function () {
     console.log("I am a sad poor country.");
 }
+let country = new Country();
 function DevelopedCountry() {
-    return Object.create(new Country(), {
+    return Object.create(country, {
         sayHappy: {
             value: function () {
                 console.log("I am a Happy developed country.")
@@ -236,7 +237,7 @@ function DevelopedCountry() {
     console.log("7: 继承")
     let country1 = new DevelopingCountry();
     let country2 = new PoorCountry();
-    let country3 = new DevelopedCountry();
+    let country3 = DevelopedCountry();
     country1.sayHi();
     country2.saySad();
     country3.sayHappy();
