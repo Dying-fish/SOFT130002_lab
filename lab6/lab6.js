@@ -11,7 +11,9 @@
 */
 
 function testTime(){
-    let a = function (num,count) {
+    let num = 1 ;
+    let count = 1;
+    function clock(num,count) {
         let time = new Date().getSeconds();
         if(count>10){
             console.log("已计数10次");
@@ -23,10 +25,10 @@ function testTime(){
             console.log(num);
             num = num*2;
             count++;
-            setTimeout(a,5000,num,count);
+            setTimeout(clock,5000,num,count);
         }
     };
-    a(1,1);
+    return clock(num,count);
 };
 // testTime();
 
@@ -221,7 +223,7 @@ function DevelopedCountry() {
     })
 }
 
-(function test() {
+(function() {
     console.log("1: testMail(13681981193,\"1224490953@qq.com\")");
     testMail(13681981193,"1224490953@qq.com");
     console.log("2: testRedundancy(\"Is is the iS is cost of of gasoline going up up\")");
@@ -242,5 +244,6 @@ function DevelopedCountry() {
     country2.saySad();
     country3.sayHappy();
     console.log("8: testTime()");
-    testTime();
+    let test = testTime();
+    test;
 })();
