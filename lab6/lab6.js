@@ -57,6 +57,7 @@ function testMail(telephone,mail) {
     else{
         console.log("The telephone and the mail are both wrong!");
     }
+    return this;
 }
 /*
 3.
@@ -79,6 +80,7 @@ function testRedundancy(str) {
         else break;
     }
     console.log(set);
+    return this;
 }
 
 /*
@@ -104,6 +106,7 @@ function testKeyBoard(wantInput, actualInput) {
         else j++;
     }
     console.log(set);
+    return this;
 }
 
 /*
@@ -128,6 +131,7 @@ function testSpecialReverse(str) {
         }
     }
     console.log(res.trim());
+    return this;
 }
 
 /*
@@ -154,6 +158,7 @@ function twoSum(nums, target) {
             console.log("[ "+map.get(res)+","+i+" ]");
         }
     }
+    return this;
 }
 
 
@@ -186,6 +191,7 @@ function lengthOfLongestSubstring(str) {
         map.set(char,i);
     }
     console.log(max);
+    return this;
 }
 
 /*
