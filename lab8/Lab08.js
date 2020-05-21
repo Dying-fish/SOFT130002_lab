@@ -4,7 +4,6 @@
 var buttonList = document.getElementsByClassName("buttons").item(0).children;
 var arrowList = document.getElementsByClassName("arrow");
 var imageList = document.querySelectorAll("img");
-var tableCellElement = document.querySelectorAll("td");
 var imageIndex = 1;
 var loop;
 function switchImage(index){
