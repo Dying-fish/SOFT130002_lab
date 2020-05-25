@@ -6,7 +6,7 @@ This directory is used to save screenshots
 
 学号：18307110072
 
-提交地址：
+提交地址：https://github.com/Dying-fish/SOFT130002_lab/tree/master/lab9
 
 
 
