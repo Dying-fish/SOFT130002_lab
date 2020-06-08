@@ -77,11 +77,13 @@ Please contact with us if have any questions~
          echo "login unsuccessful";  
       }  
    }  
-   if(isset($_COOKIE['Username'])){  
-      echo "Welcome ".$_COOKIE['Username'];  
-   }  
-   else{  
-      echo "No Post detected";  
+   else{
+       if(isset($_COOKIE['Username'])){  
+          echo "Welcome ".$_COOKIE['Username'];  
+       }  
+       else{  
+          echo "No Post detected";  
+       }
    }
    ```
 8. Similarly, chance your logic to use the cookie to determine whether or not to display the form:  

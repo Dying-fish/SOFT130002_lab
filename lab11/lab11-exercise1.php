@@ -62,14 +62,16 @@ function getLoginForm(){
             echo "login unsuccessful";
         }
     }
-    if(isset($_COOKIE['Username'])){
-        echo "Welcome ".$_COOKIE['Username'];
-    }
-    //  if(isset($_SESSION['Username'])){
-    //      echo "Welcome ".$_SESSION['Username'];
-    //  }
-    else{
-        echo "No Post detected";
+    else {
+        if (isset($_COOKIE['Username'])) {
+            echo "Welcome " . $_COOKIE['Username'];
+        }
+        //  if(isset($_SESSION['Username'])){
+        //      echo "Welcome ".$_SESSION['Username'];
+        //  }
+        else {
+            echo "No Post detected";
+        }
     }
 ?>
 
